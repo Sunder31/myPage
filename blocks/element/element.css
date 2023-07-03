@@ -1,0 +1,12 @@
+.element{
+    width: 282px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+@media (max-width: 320px) {
+    .element{
+            width: 100%;
+        }
+}

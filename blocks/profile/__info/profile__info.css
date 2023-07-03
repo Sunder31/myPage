@@ -1,0 +1,30 @@
+.profile__info{
+    max-width: 336px;
+    height: fit-content;
+    margin: 0 auto 0 0;
+    padding: 22px 0 25px 0;
+    display: grid;
+    gap: 18px 16px;
+    grid-template-areas:
+    "name button"
+    "about about";
+}
+@media (max-width: 897px) {
+    .profile__info{
+            margin: 26px 0 36px 0;
+            padding: 0;
+            text-align: center;
+            gap: 14px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+}
+@media (max-width: 420px) {
+    .profile__info{
+            gap: 14px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+}

@@ -1,0 +1,10 @@
+.element__info{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 15px 31px 21px;
+}
+@media (max-width: 320px) {
+    .element__info{
+            margin: 25px 15px 31px 15px;
+        }
+}
