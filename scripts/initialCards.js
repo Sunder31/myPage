@@ -24,3 +24,5 @@ const initialCards = [
       link: 'https://media.tenor.com/ssrpi2LnSQ8AAAAC/soldier-boy.gif'
     }
   ];
+
+  export {initialCards};
